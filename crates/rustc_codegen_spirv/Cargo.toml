@@ -37,7 +37,7 @@ ahash = { version = "0.8.11", features = ["no-rng"] }
 bytemuck = { version = "1.20.0", features = ["aarch64_simd", "derive"] }
 log = { version = "0.4.22", features = ["std"] }
 regex = { version = "1", features = ["perf"] }
-rustix = { version = "0.38.42", features = ["all-apis"] }
+rustix = { version = "0.38.44", features = ["all-apis"] }
 
 # HACK(eddyb) deps of `rustc_codegen_ssa`, for `pqp_cg_ssa` (see `build.rs`),
 # that cannot be handled with just `extern crate` pulling out of the sysroot.
